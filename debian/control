@@ -7,10 +7,12 @@ Standards-Version: 3.9.3
 
 Package: device-bonewhite
 Architecture: all
+Multi-Arch: foreign
 Description: Root package for the Beaglebone White target
  This is the root package for the Beaglebone White target.
  It defines the most generic, plain-vanilla functional configuration.
 Depends:
+ default-root-sshkey-device,
  board-bonewhite,
  dtb-bonewhite,
  bootscr-am335x,
